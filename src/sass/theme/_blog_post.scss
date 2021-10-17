@@ -1,0 +1,43 @@
+.blog {
+    article:not(:last-of-type) {
+        border-bottom: 1px solid;
+        margin-bottom: 24px;
+        padding-bottom: 24px;
+    }
+}
+.featured-image-in-post {
+    margin: 32px 0;
+}
+.share-buttons--wrapper {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .share-buttons {
+        a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: $tertiary;
+            padding: 8px;
+            font-size: 16px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            color: black;
+        }
+    }
+}
+
+.comments-area {
+    h2.comments-title {
+        font-size: 40px;
+    }
+}
+
+.related-posts-wrapper {
+    margin: 24px 0;
+}

@@ -1,0 +1,54 @@
+.navbar-brand img.img-fluid {
+    height: 50px;
+    width: auto;
+}
+
+.instagram-link img {
+    height: 40px;
+}
+
+.has-groupify-normal-font-size {
+	font-size: 20px;
+}
+
+.has-groupify-small-font-size {
+	font-size: 14px;
+}
+
+.has-groupify-medium-font-size {
+	font-size: 16px;
+}
+
+#wrapper-footer-full {
+    background-color: $primary;
+    padding: 0;
+
+    img {
+        margin-bottom: 0;
+    }
+}
+#wrapper-footer{
+    display: none;
+}
+
+#footer-full-content {
+    .widget_nav_menu {
+        flex: 1;
+    }
+    ul.menu { 
+        list-style: none;
+        margin-bottom: 0;
+        text-align: right;
+
+        a {
+            color: white;
+        }
+    }
+}
+
+//override gutenberg column width 
+@media (min-width: 600px) and (max-width: 781px) {
+    .wp-columns-parent-keep-initial .wp-block-column:not(:only-child) {
+        flex-basis: initial !important;
+    }
+}
