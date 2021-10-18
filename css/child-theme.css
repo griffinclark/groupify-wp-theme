@@ -14671,8 +14671,11 @@ figure.woocommerce-product-gallery__wrapper {
   margin-bottom: 0;
 }
 
-#wrapper-footer {
-  display: none;
+div#wrapper-footer {
+  padding: 8px 0;
+  font-size: 16px;
+  background: #329a95;
+  color: white;
 }
 
 #footer-full-content .widget_nav_menu {
